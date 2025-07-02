@@ -1,0 +1,67 @@
+{
+  "name": "salesflow-ai-2.0",
+  "version": "0.1.0",
+  "description": "Next-generation Conversational Business Intelligence platform with AI-powered sales assistants",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.0",
+    "@nextui-org/react": "^2.2.0",
+    "tailwindcss": "^3.4.0",
+    "framer-motion": "^10.16.0",
+    "recharts": "^2.8.0",
+    "openai": "^4.20.0",
+    "@anthropic-ai/sdk": "^0.9.0",
+    "bullmq": "^4.15.0",
+    "ioredis": "^5.3.0",
+    "zod": "^3.22.0",
+    "prisma": "^5.7.0",
+    "@prisma/client": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "prettier": "^3.0.0",
+    "jest": "^29.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@playwright/test": "^1.40.0"
+  },
+  "keywords": [
+    "sales",
+    "ai",
+    "chatbot",
+    "crm",
+    "analytics",
+    "business-intelligence",
+    "conversational-ai",
+    "next.js",
+    "typescript",
+    "multi-tenant"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexkohinor/SalesFlowAI-2.0.git"
+  },
+  "author": "SalesFlow AI Team",
+  "license": "MIT"
+}
